@@ -1,0 +1,21 @@
+.header{
+    background: url('../resources/Banner\ Image.png');
+    width: 1320px;
+    height: 600px;
+    margin: auto;
+    
+}
+.banner{
+    text-align: center;
+    color: #fff;
+    padding: 200px;
+
+    
+}
+.banner-title{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.banner-des{
+    font-size: 50px;
+}
