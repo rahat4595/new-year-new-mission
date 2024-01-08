@@ -1,5 +1,5 @@
 .header{
-    background: url('../resources/Banner\ Image.png');
+    background:linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url('../resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     margin: auto;
@@ -18,4 +18,100 @@
 }
 .banner-des{
     font-size: 50px;
+}
+/* off section */
+.off{
+    text-align: center;
+    margin-top: 90px;
+}
+.off-title{
+    font-size: 50px;
+    color: #FF0000;
+}
+.off-des{
+    font-size:20px;
+    color:#FF0000 ;
+}
+.off-cat{
+    font-size: 35px;
+    color: #070211;
+    margin-top: 20px;
+}
+.new-year{
+    text-align: center;
+}
+/* Party */
+.party-section{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+.midnight-party{
+    margin-top: 80px;
+    width: 720px;
+
+}
+.year-pic{
+    margin-top: 95px;
+}
+.party-title{
+    font-size:70px ;
+    color: #fff;
+}
+.party-des{
+    color:#ffffffdd ;
+    margin-bottom: 20px;
+    padding-right: 35px;
+}
+.party-btn{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+/* join session */
+.join-session{
+    margin-top: 90px;
+    margin-left: 300px;
+    width: 1320px;
+    height: 482px;
+    background:linear-gradient(to bottom, #ec85854f, rgb(255, 255, 255));
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    
+}
+.join-title {
+    font-size: 30px;
+    margin-left: 60px;
+}
+.join-des {
+    font-size: 30px;
+    margin-left: 35px;
+}
+.join-cont {
+    font-size: 30px;
+ }
+ .join-btn{
+    display: flex;
+    justify-content: center;
+ }
+ .jn-button{
+    border-radius: 5px;
+    background: red;
+    border: 0;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 35px;
+    color: #fff;
+ }
+span{
+    color: red;
 }
