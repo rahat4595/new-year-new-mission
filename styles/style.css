@@ -209,4 +209,5 @@ span{
 }
 .pic-hover:hover {
     opacity: 0.8; 
+    cursor: pointer;
   }
