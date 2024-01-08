@@ -6,6 +6,7 @@ header{
     width: 1320px;
     height: 600px;
     margin: auto;
+    border-radius: 12px;
 
     
 }
@@ -46,7 +47,7 @@ header{
 }
 /* Party */
 .party-section{
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url('../resources/Vectorrr.png');
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -86,12 +87,15 @@ header{
     margin-top: 90px;
     margin-left: 300px;
     width: 1320px;
-    height: 482px;
+    height: 420px;
     background:linear-gradient(to bottom, #ec85854f, rgb(255, 255, 255));
-    border-radius: 5px;
+    border-radius: 10px;
     display: grid;
     place-items: center;
     
+}
+.join-div{
+    line-height: 15px;
 }
 .join-title {
     font-size: 30px;
@@ -107,6 +111,7 @@ header{
  .join-btn{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
  }
  .jn-button{
     border-radius: 5px;
