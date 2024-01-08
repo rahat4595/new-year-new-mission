@@ -207,3 +207,6 @@ span{
     justify-content: space-between;
     padding-top: 15px;
 }
+.pic-hover:hover {
+    opacity: 0.8; 
+  }
