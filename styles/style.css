@@ -125,3 +125,85 @@ header{
 span{
     color: red;
 }
+
+/* offer section style */
+
+.offer-section{
+    width: 1320px;
+    height: 463px;
+    /*! display: grid; */
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 90px;
+    margin-left: 300px !important;
+    display: flex;
+    /*! margin: auto; */
+}
+.offer-st{
+    line-height: 24px;
+    padding-top: 40px;
+    width: 582px;
+}
+.offer-md{
+    border: 12px solid red;
+    border-radius: 50%;
+    padding: 30px 30px;
+    width: 440px;
+}
+.offer-end{
+    padding-left: 90px;
+    width: 404px;
+}
+.best{
+    color: red;
+    font-size: 20px;
+}
+.soon{
+    font-size: 50px;
+}
+.description{
+    color: gray;
+    font-size: 20px;
+    padding-right: 70px;
+}
+.offer-year{
+    color: red;
+    font-size: 40px;
+}
+.offer-des{
+    color: gray;
+
+}
+
+/* portfolio session style */
+.portfolio-session{
+    width: 1320px;
+    height: 1160px;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+.portfolio{
+    line-height: 20px;
+}
+.portfolio-title{
+    font-size: 24px;
+    color: red;
+}
+.awesome-portfolio{
+    font-size: 48px;
+}
+.portfolio-des{
+    font-size: 20px;
+    color: gray;
+    width: 720px;
+    height: 64px;
+    line-height: 25px;
+}
+.first-port{
+    display: flex;
+    justify-content: space-between;
+}
+.second-port{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
