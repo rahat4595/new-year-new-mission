@@ -68,8 +68,10 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 90px;
-    margin-left: 300px;
+    /*! margin-left: 300px; */
     border-radius: 12px;
+    margin: auto;
+    margin-top: 90px;
 }
 .midnight-party{
     margin-top: 80px;
@@ -102,8 +104,8 @@ header{
 }
 /* join session */
 .join-session{
-    margin-top: 90px;
-    margin-left: 300px;
+    /*! margin-top: 90px; */
+    /*! margin-left: 300px; */
     width: 1320px;
     height: 420px;
     background:linear-gradient(to bottom, #ec85854f, rgb(255, 255, 255));
@@ -112,6 +114,8 @@ header{
     justify-content: center;
     align-items: center;
     
+    margin: auto;
+    margin-top: 90px;
 }
 .join-div{
     line-height: 15px;
@@ -156,12 +160,11 @@ span{
 .offer-section{
     width: 1320px;
     height: 463px;
-    /*! display: grid; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    margin-top: 90px;
-    margin-left: 300px !important;
+    /*! margin-top: 90px; */
+    /*! margin-left: 300px ; */
     display: flex;
-    /*! margin: auto; */
+    margin: auto;
+    margin-top: 90px;
 }
 .offer-st{
     line-height: 24px;
@@ -215,8 +218,10 @@ span{
 .portfolio-session{
     width: 1320px;
     height: 1160px;
+    /*! margin-top: 90px; */
+    /*! margin-left: 300px; */
+    margin: auto;
     margin-top: 90px;
-    margin-left: 300px;
 }
 .portfolio{
     line-height: 20px;
@@ -259,14 +264,16 @@ span{
   .news-letter{
     width: 1320px;
     height: 600px;
-    margin-top: 90px;
-    margin-left: 300px;
+    /*! margin-top: 90px; */
+    /*! margin-left: 300px; */
     background: #ec9c9c2e;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     border-radius: 12px;
+    margin: auto;
+    margin-top: 90px;
   }
   .news-title{
     font-size: 48px;
